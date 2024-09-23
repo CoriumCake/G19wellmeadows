@@ -10,3 +10,17 @@ C:\Users\carrybit\Desktop\1101173\wellmeadows\wellmeadows\obj\Debug\wellmeadows.
 C:\Users\carrybit\Desktop\1101173\wellmeadows\wellmeadows\obj\Debug\wellmeadows.xml
 C:\Users\carrybit\Desktop\1101173\wellmeadows\wellmeadows\obj\Debug\wellmeadows.pdb
 C:\Users\carrybit\Desktop\1101173\wellmeadows\wellmeadows\obj\Debug\wellmeadows.Form1.resources
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\bin\Debug\wellmeadows.exe.config
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\bin\Debug\wellmeadows.exe
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\bin\Debug\wellmeadows.pdb
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\bin\Debug\wellmeadows.xml
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.vbproj.AssemblyReference.cache
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.Form1.resources
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.Form2.resources
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.Resources.resources
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.vbproj.GenerateResource.cache
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.vbproj.CoreCompileInputs.cache
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.exe
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.xml
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.pdb
+C:\Users\mark-\OneDrive\Pictures\เดสก์ท็อป\G19wellmeadows\wellmeadows\obj\Debug\wellmeadows.Formsupplier.resources
