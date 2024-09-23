@@ -94,6 +94,12 @@
     <Compile Include="FormSearchPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormSearchStaff.Designer.vb">
+      <DependentUpon>FormSearchStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formsearchsupplier.Designer.vb">
       <DependentUpon>Formsearchsupplier.vb</DependentUpon>
     </Compile>
@@ -174,6 +180,9 @@
     <EmbeddedResource Include="FormSearchPatient.resx">
       <DependentUpon>FormSearchPatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchStaff.resx">
+      <DependentUpon>FormSearchStaff.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formsearchsupplier.resx">
       <DependentUpon>Formsearchsupplier.vb</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +260,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\99999.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-bg.ai_17270271162551.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
