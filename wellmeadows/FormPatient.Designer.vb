@@ -47,14 +47,14 @@ Partial Class FormPatient
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(704, 206)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(28, 771)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 40
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(240, 206)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(25, 576)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 39
@@ -62,7 +62,7 @@ Partial Class FormPatient
         'RoundCornerTextbox10
         '
         Me.RoundCornerTextbox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox10.Location = New System.Drawing.Point(28, 297)
+        Me.RoundCornerTextbox10.Location = New System.Drawing.Point(28, 851)
         Me.RoundCornerTextbox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox10.Name = "RoundCornerTextbox10"
         Me.RoundCornerTextbox10.Size = New System.Drawing.Size(197, 23)
@@ -71,7 +71,7 @@ Partial Class FormPatient
         'RoundCornerTextbox7
         '
         Me.RoundCornerTextbox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(450, 203)
+        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(28, 679)
         Me.RoundCornerTextbox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox7.Name = "RoundCornerTextbox7"
         Me.RoundCornerTextbox7.Size = New System.Drawing.Size(197, 23)
@@ -80,7 +80,7 @@ Partial Class FormPatient
         'RoundCornerTextbox5
         '
         Me.RoundCornerTextbox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox5.Location = New System.Drawing.Point(450, 113)
+        Me.RoundCornerTextbox5.Location = New System.Drawing.Point(28, 288)
         Me.RoundCornerTextbox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox5.Name = "RoundCornerTextbox5"
         Me.RoundCornerTextbox5.Size = New System.Drawing.Size(197, 23)
@@ -89,7 +89,7 @@ Partial Class FormPatient
         'RoundCornerTextbox4
         '
         Me.RoundCornerTextbox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox4.Location = New System.Drawing.Point(704, 113)
+        Me.RoundCornerTextbox4.Location = New System.Drawing.Point(28, 381)
         Me.RoundCornerTextbox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox4.Name = "RoundCornerTextbox4"
         Me.RoundCornerTextbox4.Size = New System.Drawing.Size(197, 23)
@@ -98,7 +98,7 @@ Partial Class FormPatient
         'RoundCornerTextbox3
         '
         Me.RoundCornerTextbox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox3.Location = New System.Drawing.Point(240, 113)
+        Me.RoundCornerTextbox3.Location = New System.Drawing.Point(28, 195)
         Me.RoundCornerTextbox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox3.Name = "RoundCornerTextbox3"
         Me.RoundCornerTextbox3.Size = New System.Drawing.Size(197, 23)
@@ -107,7 +107,7 @@ Partial Class FormPatient
         'RoundCornerTextbox2
         '
         Me.RoundCornerTextbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox2.Location = New System.Drawing.Point(28, 203)
+        Me.RoundCornerTextbox2.Location = New System.Drawing.Point(28, 483)
         Me.RoundCornerTextbox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox2.Name = "RoundCornerTextbox2"
         Me.RoundCornerTextbox2.Size = New System.Drawing.Size(197, 23)
@@ -125,7 +125,7 @@ Partial Class FormPatient
         'Label10
         '
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(25, 264)
+        Me.Label10.Location = New System.Drawing.Point(25, 818)
         Me.Label10.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(100, 31)
@@ -136,7 +136,7 @@ Partial Class FormPatient
         'Label9
         '
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(710, 170)
+        Me.Label9.Location = New System.Drawing.Point(34, 735)
         Me.Label9.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(100, 31)
@@ -147,7 +147,7 @@ Partial Class FormPatient
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(25, 170)
+        Me.Label8.Location = New System.Drawing.Point(25, 450)
         Me.Label8.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(100, 31)
@@ -158,7 +158,7 @@ Partial Class FormPatient
         'Label7
         '
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(710, 69)
+        Me.Label7.Location = New System.Drawing.Point(34, 337)
         Me.Label7.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(100, 31)
@@ -169,7 +169,7 @@ Partial Class FormPatient
         'Label6
         '
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(246, 170)
+        Me.Label6.Location = New System.Drawing.Point(31, 540)
         Me.Label6.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(100, 31)
@@ -180,7 +180,7 @@ Partial Class FormPatient
         'Label5
         '
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(457, 69)
+        Me.Label5.Location = New System.Drawing.Point(35, 244)
         Me.Label5.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(100, 31)
@@ -191,7 +191,7 @@ Partial Class FormPatient
         'Label4
         '
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(457, 170)
+        Me.Label4.Location = New System.Drawing.Point(35, 646)
         Me.Label4.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(100, 31)
@@ -202,7 +202,7 @@ Partial Class FormPatient
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(246, 69)
+        Me.Label1.Location = New System.Drawing.Point(34, 151)
         Me.Label1.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(100, 31)
@@ -213,7 +213,7 @@ Partial Class FormPatient
         'Label2
         '
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(25, 69)
+        Me.Label2.Location = New System.Drawing.Point(34, 67)
         Me.Label2.Margin = New System.Windows.Forms.Padding(27, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(100, 31)
@@ -241,7 +241,7 @@ Partial Class FormPatient
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(771, 439)
+        Me.Button2.Location = New System.Drawing.Point(199, 900)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 36)
@@ -257,7 +257,7 @@ Partial Class FormPatient
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(633, 439)
+        Me.Button1.Location = New System.Drawing.Point(75, 900)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 36)
@@ -269,7 +269,7 @@ Partial Class FormPatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(927, 497)
+        Me.ClientSize = New System.Drawing.Size(370, 973)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DateTimePicker2)
