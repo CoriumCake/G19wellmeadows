@@ -45,13 +45,15 @@ Partial Class Formsupplier
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'RoundCornerTextbox1
         '
         Me.RoundCornerTextbox1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox1.Location = New System.Drawing.Point(166, 102)
+        Me.RoundCornerTextbox1.Location = New System.Drawing.Point(175, 131)
         Me.RoundCornerTextbox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox1.Name = "RoundCornerTextbox1"
         Me.RoundCornerTextbox1.Size = New System.Drawing.Size(91, 23)
@@ -61,7 +63,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox2.Location = New System.Drawing.Point(275, 101)
+        Me.RoundCornerTextbox2.Location = New System.Drawing.Point(312, 131)
         Me.RoundCornerTextbox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox2.Name = "RoundCornerTextbox2"
         Me.RoundCornerTextbox2.Size = New System.Drawing.Size(91, 23)
@@ -71,7 +73,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox3.Location = New System.Drawing.Point(275, 330)
+        Me.RoundCornerTextbox3.Location = New System.Drawing.Point(312, 362)
         Me.RoundCornerTextbox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox3.Name = "RoundCornerTextbox3"
         Me.RoundCornerTextbox3.Size = New System.Drawing.Size(91, 23)
@@ -81,7 +83,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox4.Location = New System.Drawing.Point(166, 149)
+        Me.RoundCornerTextbox4.Location = New System.Drawing.Point(175, 178)
         Me.RoundCornerTextbox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox4.Name = "RoundCornerTextbox4"
         Me.RoundCornerTextbox4.Size = New System.Drawing.Size(91, 23)
@@ -91,7 +93,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox5.Location = New System.Drawing.Point(275, 149)
+        Me.RoundCornerTextbox5.Location = New System.Drawing.Point(312, 178)
         Me.RoundCornerTextbox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox5.Name = "RoundCornerTextbox5"
         Me.RoundCornerTextbox5.Size = New System.Drawing.Size(91, 23)
@@ -101,7 +103,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox6.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox6.Location = New System.Drawing.Point(166, 222)
+        Me.RoundCornerTextbox6.Location = New System.Drawing.Point(175, 272)
         Me.RoundCornerTextbox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox6.Name = "RoundCornerTextbox6"
         Me.RoundCornerTextbox6.Size = New System.Drawing.Size(91, 23)
@@ -111,7 +113,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox7.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(275, 227)
+        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(312, 272)
         Me.RoundCornerTextbox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox7.Name = "RoundCornerTextbox7"
         Me.RoundCornerTextbox7.Size = New System.Drawing.Size(91, 23)
@@ -121,7 +123,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox8.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox8.Location = New System.Drawing.Point(169, 283)
+        Me.RoundCornerTextbox8.Location = New System.Drawing.Point(175, 319)
         Me.RoundCornerTextbox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox8.Name = "RoundCornerTextbox8"
         Me.RoundCornerTextbox8.Size = New System.Drawing.Size(91, 23)
@@ -131,7 +133,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox9.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox9.Location = New System.Drawing.Point(275, 283)
+        Me.RoundCornerTextbox9.Location = New System.Drawing.Point(312, 319)
         Me.RoundCornerTextbox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox9.Name = "RoundCornerTextbox9"
         Me.RoundCornerTextbox9.Size = New System.Drawing.Size(91, 23)
@@ -141,7 +143,7 @@ Partial Class Formsupplier
         '
         Me.RoundCornerTextbox10.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox10.Location = New System.Drawing.Point(166, 330)
+        Me.RoundCornerTextbox10.Location = New System.Drawing.Point(175, 362)
         Me.RoundCornerTextbox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox10.Name = "RoundCornerTextbox10"
         Me.RoundCornerTextbox10.Size = New System.Drawing.Size(91, 23)
@@ -151,7 +153,7 @@ Partial Class Formsupplier
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label1.Location = New System.Drawing.Point(163, 83)
+        Me.Label1.Location = New System.Drawing.Point(172, 112)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(45, 17)
         Me.Label1.TabIndex = 21
@@ -161,7 +163,7 @@ Partial Class Formsupplier
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label2.Location = New System.Drawing.Point(272, 82)
+        Me.Label2.Location = New System.Drawing.Point(309, 112)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(70, 17)
         Me.Label2.TabIndex = 22
@@ -171,7 +173,7 @@ Partial Class Formsupplier
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label3.Location = New System.Drawing.Point(272, 311)
+        Me.Label3.Location = New System.Drawing.Point(309, 343)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(131, 17)
         Me.Label3.TabIndex = 23
@@ -181,7 +183,7 @@ Partial Class Formsupplier
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label4.Location = New System.Drawing.Point(166, 130)
+        Me.Label4.Location = New System.Drawing.Point(172, 159)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(42, 17)
         Me.Label4.TabIndex = 24
@@ -191,7 +193,7 @@ Partial Class Formsupplier
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label5.Location = New System.Drawing.Point(272, 130)
+        Me.Label5.Location = New System.Drawing.Point(309, 159)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(49, 17)
         Me.Label5.TabIndex = 25
@@ -201,7 +203,7 @@ Partial Class Formsupplier
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label6.Location = New System.Drawing.Point(166, 203)
+        Me.Label6.Location = New System.Drawing.Point(172, 253)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(42, 17)
         Me.Label6.TabIndex = 26
@@ -211,7 +213,7 @@ Partial Class Formsupplier
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label7.Location = New System.Drawing.Point(272, 203)
+        Me.Label7.Location = New System.Drawing.Point(309, 253)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(115, 17)
         Me.Label7.TabIndex = 27
@@ -221,7 +223,7 @@ Partial Class Formsupplier
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label8.Location = New System.Drawing.Point(166, 264)
+        Me.Label8.Location = New System.Drawing.Point(172, 300)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(61, 17)
         Me.Label8.TabIndex = 28
@@ -231,7 +233,7 @@ Partial Class Formsupplier
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label9.Location = New System.Drawing.Point(272, 264)
+        Me.Label9.Location = New System.Drawing.Point(309, 300)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(52, 17)
         Me.Label9.TabIndex = 29
@@ -241,7 +243,7 @@ Partial Class Formsupplier
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label10.Location = New System.Drawing.Point(166, 311)
+        Me.Label10.Location = New System.Drawing.Point(172, 343)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(86, 17)
         Me.Label10.TabIndex = 30
@@ -256,7 +258,7 @@ Partial Class Formsupplier
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(432, 370)
+        Me.Button1.Location = New System.Drawing.Point(488, 311)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 36)
@@ -273,7 +275,7 @@ Partial Class Formsupplier
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(563, 370)
+        Me.Button3.Location = New System.Drawing.Point(610, 311)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 36)
@@ -285,17 +287,39 @@ Partial Class Formsupplier
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label11.Location = New System.Drawing.Point(139, 9)
+        Me.Label11.Location = New System.Drawing.Point(153, 9)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(113, 31)
         Me.Label11.TabIndex = 34
         Me.Label11.Text = "Supplier"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label12.Location = New System.Drawing.Point(172, 74)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(145, 17)
+        Me.Label12.TabIndex = 35
+        Me.Label12.Text = "personal inforamation"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label13.Location = New System.Drawing.Point(172, 216)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(245, 17)
+        Me.Label13.TabIndex = 36
+        Me.Label13.Text = "Requesting use of medical equipment"
         '
         'Formsupplier
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
@@ -349,4 +373,6 @@ Partial Class Formsupplier
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
 End Class
