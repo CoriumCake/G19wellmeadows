@@ -76,16 +76,40 @@
     <Compile Include="Class1.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="FormPatient.Designer.vb">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchPatient.Designer.vb">
+      <DependentUpon>FormSearchPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formsearchsupplier.Designer.vb">
       <DependentUpon>Formsearchsupplier.vb</DependentUpon>
     </Compile>
     <Compile Include="Formsearchsupplier.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormSearchWard.Designer.vb">
+      <DependentUpon>FormSearchWard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchWard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formsuppiler.Designer.vb">
       <DependentUpon>Formsuppiler.vb</DependentUpon>
     </Compile>
     <Compile Include="Formsuppiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWard.Designer.vb">
+      <DependentUpon>FormWard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\Form2.Designer.vb">
@@ -129,11 +153,23 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPatient.resx">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchPatient.resx">
+      <DependentUpon>FormSearchPatient.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formsearchsupplier.resx">
       <DependentUpon>Formsearchsupplier.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchWard.resx">
+      <DependentUpon>FormSearchWard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formsuppiler.resx">
       <DependentUpon>Formsuppiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWard.resx">
+      <DependentUpon>FormWard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
