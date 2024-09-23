@@ -76,6 +76,12 @@
     <Compile Include="Class1.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPatient.Designer.vb">
       <DependentUpon>FormPatient.vb</DependentUpon>
     </Compile>
@@ -150,6 +156,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
