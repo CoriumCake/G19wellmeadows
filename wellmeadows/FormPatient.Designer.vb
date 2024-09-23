@@ -230,7 +230,7 @@ Partial Class FormPatient
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(342, 40)
         Me.Label3.TabIndex = 22
-        Me.Label3.Text = "Patient Management"
+        Me.Label3.Text = "Management"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button2
