@@ -76,6 +76,24 @@
     <Compile Include="Class1.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Formsearchsupplier.Designer.vb">
+      <DependentUpon>Formsearchsupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formsearchsupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsuppiler.Designer.vb">
+      <DependentUpon>Formsuppiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formsuppiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="roundtextbox.vb">
       <SubType>Component</SubType>
     </Compile>
@@ -110,6 +128,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsearchsupplier.resx">
+      <DependentUpon>Formsearchsupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsuppiler.resx">
+      <DependentUpon>Formsuppiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
