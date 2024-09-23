@@ -98,9 +98,9 @@ Partial Class FormSearchWard
         Me.Label3.Location = New System.Drawing.Point(31, 22)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(119, 40)
+        Me.Label3.Size = New System.Drawing.Size(268, 40)
         Me.Label3.TabIndex = 35
-        Me.Label3.Text = "Ward"
+        Me.Label3.Text = "Ward dasd"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'FormSearchWard
