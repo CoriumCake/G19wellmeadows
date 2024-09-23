@@ -56,12 +56,12 @@ Partial Class FormStaff
         Me.Label16 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'RoundCornerTextbox1
@@ -369,38 +369,6 @@ Partial Class FormStaff
         Me.Label17.TabIndex = 44
         Me.Label17.Text = "STAFF-MANAGEMENT"
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button2.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(681, 514)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 36)
-        Me.Button2.TabIndex = 46
-        Me.Button2.Text = "NEXT"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(534, 514)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 36)
-        Me.Button1.TabIndex = 45
-        Me.Button1.Text = "ADD"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'Label18
         '
         Me.Label18.AutoSize = True
@@ -440,6 +408,38 @@ Partial Class FormStaff
         Me.Label21.Size = New System.Drawing.Size(150, 16)
         Me.Label21.TabIndex = 50
         Me.Label21.Text = "Financial information"
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Button2.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Button2.Location = New System.Drawing.Point(681, 514)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(113, 36)
+        Me.Button2.TabIndex = 46
+        Me.Button2.Text = "NEXT"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Button1.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(534, 514)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(113, 36)
+        Me.Button1.TabIndex = 45
+        Me.Button1.Text = "ADD"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'FormStaff
         '
