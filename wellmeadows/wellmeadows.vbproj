@@ -106,6 +106,12 @@
     <Compile Include="FormSearchWard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormStaff.Designer.vb">
+      <DependentUpon>FormStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formsuppiler.Designer.vb">
       <DependentUpon>Formsuppiler.vb</DependentUpon>
     </Compile>
@@ -174,6 +180,9 @@
     <EmbeddedResource Include="FormSearchWard.resx">
       <DependentUpon>FormSearchWard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormStaff.resx">
+      <DependentUpon>FormStaff.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formsuppiler.resx">
       <DependentUpon>Formsuppiler.vb</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +248,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login_button %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99999.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
