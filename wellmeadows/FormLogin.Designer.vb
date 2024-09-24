@@ -34,9 +34,9 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.RoundCornerTextbox1 = New wellmeadows.RoundCornerTextbox()
-        Me.RoundCornerTextbox2 = New wellmeadows.RoundCornerTextbox()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.txtUsername = New wellmeadows.RoundCornerTextbox()
+        Me.txtPassword = New wellmeadows.RoundCornerTextbox()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -122,9 +122,9 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.CheckBox1, 1, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.LinkLabel1, 2, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.Button1, 1, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.RoundCornerTextbox1, 1, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.RoundCornerTextbox2, 1, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.btnLogin, 1, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.txtUsername, 1, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.txtPassword, 1, 2)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(141, 123)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
@@ -204,44 +204,44 @@ Partial Class Form1
         Me.LinkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.LinkLabel1.UseMnemonic = False
         '
-        'Button1
+        'btnLogin
         '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(226, 305)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 8, 3, 9)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(170, 55)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.btnLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.btnLogin.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_button1
+        Me.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.btnLogin.Location = New System.Drawing.Point(226, 305)
+        Me.btnLogin.Margin = New System.Windows.Forms.Padding(3, 8, 3, 9)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(170, 55)
+        Me.btnLogin.TabIndex = 9
+        Me.btnLogin.Text = "Login"
+        Me.btnLogin.UseVisualStyleBackColor = False
         '
-        'RoundCornerTextbox1
+        'txtUsername
         '
-        Me.RoundCornerTextbox1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TableLayoutPanel1.SetColumnSpan(Me.RoundCornerTextbox1, 2)
-        Me.RoundCornerTextbox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox1.Location = New System.Drawing.Point(221, 105)
-        Me.RoundCornerTextbox1.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
-        Me.RoundCornerTextbox1.Name = "RoundCornerTextbox1"
-        Me.RoundCornerTextbox1.Size = New System.Drawing.Size(294, 30)
-        Me.RoundCornerTextbox1.TabIndex = 10
+        Me.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.TableLayoutPanel1.SetColumnSpan(Me.txtUsername, 2)
+        Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.Location = New System.Drawing.Point(221, 105)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(294, 30)
+        Me.txtUsername.TabIndex = 10
         '
-        'RoundCornerTextbox2
+        'txtPassword
         '
-        Me.RoundCornerTextbox2.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TableLayoutPanel1.SetColumnSpan(Me.RoundCornerTextbox2, 2)
-        Me.RoundCornerTextbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox2.Location = New System.Drawing.Point(221, 193)
-        Me.RoundCornerTextbox2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
-        Me.RoundCornerTextbox2.Name = "RoundCornerTextbox2"
-        Me.RoundCornerTextbox2.Size = New System.Drawing.Size(294, 30)
-        Me.RoundCornerTextbox2.TabIndex = 11
+        Me.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.TableLayoutPanel1.SetColumnSpan(Me.txtPassword, 2)
+        Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Location = New System.Drawing.Point(221, 193)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(294, 30)
+        Me.txtPassword.TabIndex = 11
         '
         'Form1
         '
@@ -275,7 +275,7 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents LinkLabel1 As LinkLabel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents RoundCornerTextbox1 As RoundCornerTextbox
-    Friend WithEvents RoundCornerTextbox2 As RoundCornerTextbox
+    Friend WithEvents btnLogin As Button
+    Friend WithEvents txtUsername As RoundCornerTextbox
+    Friend WithEvents txtPassword As RoundCornerTextbox
 End Class
