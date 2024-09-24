@@ -92,16 +92,34 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormAppointment.Designer.vb">
+      <DependentUpon>FormAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPatient.Designer.vb">
       <DependentUpon>FormPatient.vb</DependentUpon>
     </Compile>
     <Compile Include="FormPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormSearchAppointment.Designer.vb">
+      <DependentUpon>FormSearchAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormSearchPatient.Designer.vb">
       <DependentUpon>FormSearchPatient.vb</DependentUpon>
     </Compile>
     <Compile Include="FormSearchPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchStaff.Designer.vb">
+      <DependentUpon>FormSearchStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchStaff.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formsearchsupplier.Designer.vb">
@@ -171,14 +189,23 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAppointment.resx">
+      <DependentUpon>FormAppointment.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPatient.resx">
       <DependentUpon>FormPatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchAppointment.resx">
+      <DependentUpon>FormSearchAppointment.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSearchPatient.resx">
       <DependentUpon>FormSearchPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchStaff.resx">
+      <DependentUpon>FormSearchStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formsearchsupplier.resx">
       <DependentUpon>Formsearchsupplier.vb</DependentUpon>
@@ -247,6 +274,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\99999.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-bg.ai_17270271162551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
