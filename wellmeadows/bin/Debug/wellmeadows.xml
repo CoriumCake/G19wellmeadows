@@ -27,6 +27,31 @@ wellmeadows
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:wellmeadows.My.Resources.Resources.appointment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.banner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.black">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.dashboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:wellmeadows.My.Resources.Resources.login_banner">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -62,7 +87,42 @@ wellmeadows
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:wellmeadows.My.Resources.Resources.logo_optimized">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.logo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.patient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:wellmeadows.My.Resources.Resources.Remove_bg_ai_1727027116255">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.staff">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.supplier">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -73,6 +133,11 @@ wellmeadows
 </summary>
 </member>
 <member name="P:wellmeadows.My.Resources.Resources.textbox_border__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wellmeadows.My.Resources.Resources.ward">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

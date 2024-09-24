@@ -1,17 +1,10 @@
 ﻿Public Class Formsupplier
-    Private Sub RoundCornerTextbox10_TextChanged(sender As Object, e As EventArgs) Handles RoundCornerTextbox10.TextChanged
+    Private sidebar As Sidebar
 
+    Private Sub Formsupplier_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        sidebar = New Sidebar(Me, lbldashboard, lblstaff, lblpatient, lblward, lblsupplier, lblappoint, lbllogout, lblhelp)
     End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-
+    Private Sub Formsupplier_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
+        sidebar.HighlightLabelByFormName("FormSupplier")
     End Sub
 End Class
