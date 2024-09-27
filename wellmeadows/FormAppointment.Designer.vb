@@ -37,6 +37,9 @@ Partial Class FormAppointment
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PatientFeedbackTableAdapter1 = New wellmeadows.dbWellsmeadowsHospitalG19DataSetTableAdapters.PatientFeedbackTableAdapter()
+        Me.DbWellsmeadowsHospitalG19DataSet1 = New wellmeadows.dbWellsmeadowsHospitalG19DataSet()
+        CType(Me.DbWellsmeadowsHospitalG19DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label15
@@ -51,7 +54,7 @@ Partial Class FormAppointment
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(587, 160)
+        Me.Label16.Location = New System.Drawing.Point(559, 159)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(77, 13)
         Me.Label16.TabIndex = 45
@@ -87,7 +90,7 @@ Partial Class FormAppointment
         'RoundCornerTextbox7
         '
         Me.RoundCornerTextbox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(584, 184)
+        Me.RoundCornerTextbox7.Location = New System.Drawing.Point(562, 248)
         Me.RoundCornerTextbox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox7.Name = "RoundCornerTextbox7"
         Me.RoundCornerTextbox7.Size = New System.Drawing.Size(145, 23)
@@ -123,7 +126,7 @@ Partial Class FormAppointment
         'RoundCornerTextbox1
         '
         Me.RoundCornerTextbox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoundCornerTextbox1.Location = New System.Drawing.Point(590, 248)
+        Me.RoundCornerTextbox1.Location = New System.Drawing.Point(562, 184)
         Me.RoundCornerTextbox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
         Me.RoundCornerTextbox1.Name = "RoundCornerTextbox1"
         Me.RoundCornerTextbox1.Size = New System.Drawing.Size(142, 23)
@@ -189,6 +192,15 @@ Partial Class FormAppointment
         Me.Button1.Text = "ADD"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'PatientFeedbackTableAdapter1
+        '
+        Me.PatientFeedbackTableAdapter1.ClearBeforeFill = True
+        '
+        'DbWellsmeadowsHospitalG19DataSet1
+        '
+        Me.DbWellsmeadowsHospitalG19DataSet1.DataSetName = "dbWellsmeadowsHospitalG19DataSet"
+        Me.DbWellsmeadowsHospitalG19DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'FormAppointment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -211,6 +223,7 @@ Partial Class FormAppointment
         Me.Controls.Add(Me.RoundCornerTextbox7)
         Me.Name = "FormAppointment"
         Me.Text = "FromAppointment"
+        CType(Me.DbWellsmeadowsHospitalG19DataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -231,4 +244,6 @@ Partial Class FormAppointment
     Friend WithEvents Label4 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents PatientFeedbackTableAdapter1 As dbWellsmeadowsHospitalG19DataSetTableAdapters.PatientFeedbackTableAdapter
+    Friend WithEvents DbWellsmeadowsHospitalG19DataSet1 As dbWellsmeadowsHospitalG19DataSet
 End Class

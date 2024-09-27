@@ -51,7 +51,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox1
         '
-        Me.RoundCornerTextbox1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox1.Location = New System.Drawing.Point(192, 136)
         Me.RoundCornerTextbox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -61,7 +60,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox2
         '
-        Me.RoundCornerTextbox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox2.Location = New System.Drawing.Point(322, 136)
         Me.RoundCornerTextbox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -71,7 +69,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox3
         '
-        Me.RoundCornerTextbox3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox3.Location = New System.Drawing.Point(322, 361)
         Me.RoundCornerTextbox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -81,7 +78,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox4
         '
-        Me.RoundCornerTextbox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox4.Location = New System.Drawing.Point(192, 182)
         Me.RoundCornerTextbox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -91,7 +87,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox5
         '
-        Me.RoundCornerTextbox5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox5.Location = New System.Drawing.Point(322, 182)
         Me.RoundCornerTextbox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -101,7 +96,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox6
         '
-        Me.RoundCornerTextbox6.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox6.Location = New System.Drawing.Point(192, 272)
         Me.RoundCornerTextbox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -111,7 +105,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox7
         '
-        Me.RoundCornerTextbox7.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox7.Location = New System.Drawing.Point(322, 272)
         Me.RoundCornerTextbox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -121,7 +114,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox8
         '
-        Me.RoundCornerTextbox8.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox8.Location = New System.Drawing.Point(192, 319)
         Me.RoundCornerTextbox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -131,7 +123,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox9
         '
-        Me.RoundCornerTextbox9.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox9.Location = New System.Drawing.Point(322, 314)
         Me.RoundCornerTextbox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -141,7 +132,6 @@ Partial Class Formsupplier
         '
         'RoundCornerTextbox10
         '
-        Me.RoundCornerTextbox10.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.RoundCornerTextbox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoundCornerTextbox10.Location = New System.Drawing.Point(192, 361)
         Me.RoundCornerTextbox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 5)
@@ -268,7 +258,7 @@ Partial Class Formsupplier
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(639, 311)
+        Me.Button3.Location = New System.Drawing.Point(725, 353)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 36)
@@ -285,7 +275,7 @@ Partial Class Formsupplier
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(525, 311)
+        Me.Button1.Location = New System.Drawing.Point(611, 353)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 36)
@@ -317,7 +307,7 @@ Partial Class Formsupplier
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(984, 661)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)

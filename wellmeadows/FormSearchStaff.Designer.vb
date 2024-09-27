@@ -61,7 +61,7 @@ Partial Class FormSearchStaff
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(34, 23)
         Me.TableLayoutPanel1.TabIndex = 15
         '
@@ -94,7 +94,7 @@ Partial Class FormSearchStaff
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(496, 502)
+        Me.Button2.Location = New System.Drawing.Point(610, 525)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 36)
@@ -111,7 +111,7 @@ Partial Class FormSearchStaff
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(651, 502)
+        Me.Button3.Location = New System.Drawing.Point(765, 525)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2, 5, 2, 6)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 36)
@@ -123,7 +123,7 @@ Partial Class FormSearchStaff
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(814, 577)
+        Me.ClientSize = New System.Drawing.Size(984, 661)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
