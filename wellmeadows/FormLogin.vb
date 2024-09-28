@@ -40,4 +40,24 @@ Public Class Form1
         End Using
     End Sub
 
+
+    Private Sub chkShowPassword_CheckedChanged(sender As Object, e As EventArgs) Handles chkShowPassword.CheckedChanged
+        If chkShowPassword.Checked Then
+            txtPassword.UseSystemPasswordChar = False ' Show password
+        Else
+            txtPassword.UseSystemPasswordChar = True ' Hide password
+        End If
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Dim forgotPasswordForm As New ForgotPasswordForm()
+
+        ' Pass the current form's location and size to the new form
+        forgotPasswordForm.StartPosition = FormStartPosition.Manual
+        forgotPasswordForm.Location = Me.Location
+        forgotPasswordForm.Size = Me.Size
+
+        forgotPasswordForm.Show()
+        Me.Hide() ' Hide the current login form instead of closing it
+    End Sub
 End Class
