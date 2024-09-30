@@ -114,25 +114,27 @@ Partial Class Form1
         Me.TableLayoutPanel1.BackgroundImage = Global.wellmeadows.My.Resources.Resources.login_border
         Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 3
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.0863!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.71719!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.91289!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.6446!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.39002!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label3, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label4, 0, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.chkShowPassword, 1, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.LinkLabel1, 2, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.btnLogin, 1, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.txtPassword, 1, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.txtUsername, 1, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label2, 1, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.txtUsername, 1, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label4, 1, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.txtPassword, 1, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.btnLogin, 1, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.chkShowPassword, 2, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.LinkLabel1, 1, 5)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(141, 123)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 5
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.26582!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.79747!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.46836!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.88608!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.34177!))
+        Me.TableLayoutPanel1.RowCount = 7
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.24646!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.66289!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.13031!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.13208!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.98113!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(574, 395)
         Me.TableLayoutPanel1.TabIndex = 3
         '
@@ -142,9 +144,9 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(221, 21)
+        Me.Label3.Location = New System.Drawing.Point(146, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(181, 62)
+        Me.Label3.Size = New System.Drawing.Size(256, 60)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Login"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -155,10 +157,10 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(40, 176)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(40, 0, 3, 0)
+        Me.Label4.Location = New System.Drawing.Point(143, 175)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(175, 68)
+        Me.Label4.Size = New System.Drawing.Size(262, 59)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Password"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -169,19 +171,19 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(40, 83)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(40, 0, 3, 0)
+        Me.Label2.Location = New System.Drawing.Point(143, 60)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(175, 93)
+        Me.Label2.Size = New System.Drawing.Size(262, 64)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Username"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'chkShowPassword
         '
         Me.chkShowPassword.AutoSize = True
         Me.chkShowPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkShowPassword.Location = New System.Drawing.Point(221, 247)
+        Me.chkShowPassword.Location = New System.Drawing.Point(408, 285)
         Me.chkShowPassword.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
         Me.chkShowPassword.Name = "chkShowPassword"
         Me.chkShowPassword.Size = New System.Drawing.Size(144, 24)
@@ -192,10 +194,9 @@ Partial Class Form1
         'LinkLabel1
         '
         Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.Black
-        Me.LinkLabel1.Location = New System.Drawing.Point(408, 244)
+        Me.LinkLabel1.Location = New System.Drawing.Point(146, 282)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(163, 35)
         Me.LinkLabel1.TabIndex = 5
@@ -213,21 +214,20 @@ Partial Class Form1
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.btnLogin.Location = New System.Drawing.Point(226, 294)
+        Me.btnLogin.Location = New System.Drawing.Point(189, 350)
         Me.btnLogin.Margin = New System.Windows.Forms.Padding(3, 8, 3, 9)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(170, 55)
+        Me.btnLogin.Size = New System.Drawing.Size(170, 36)
         Me.btnLogin.TabIndex = 9
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = False
         '
         'txtPassword
         '
-        Me.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.TableLayoutPanel1.SetColumnSpan(Me.txtPassword, 2)
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(221, 192)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(3, 3, 3, 8)
+        Me.txtPassword.Location = New System.Drawing.Point(143, 234)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(0)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(294, 30)
         Me.txtPassword.TabIndex = 11
@@ -238,7 +238,7 @@ Partial Class Form1
         Me.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.TableLayoutPanel1.SetColumnSpan(Me.txtUsername, 2)
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(221, 113)
+        Me.txtUsername.Location = New System.Drawing.Point(146, 133)
         Me.txtUsername.Margin = New System.Windows.Forms.Padding(3, 6, 3, 8)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(294, 30)

@@ -37,8 +37,6 @@ Partial Class FormAppointment
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PatientFeedbackTableAdapter1 = New wellmeadows.dbWellsmeadowsHospitalG19DataSetTableAdapters.PatientFeedbackTableAdapter()
-        Me.DbWellsmeadowsHospitalG19DataSet1 = New wellmeadows.dbWellsmeadowsHospitalG19DataSet()
         CType(Me.DbWellsmeadowsHospitalG19DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -244,6 +242,4 @@ Partial Class FormAppointment
     Friend WithEvents Label4 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents PatientFeedbackTableAdapter1 As dbWellsmeadowsHospitalG19DataSetTableAdapters.PatientFeedbackTableAdapter
-    Friend WithEvents DbWellsmeadowsHospitalG19DataSet1 As dbWellsmeadowsHospitalG19DataSet
 End Class
